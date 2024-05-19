@@ -1,0 +1,30 @@
+/*reseta os padroes dos navegadores*/
+
+ * {
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    text-decoration: none; 
+  
+    /* box-shadow: inset 0 0 0 1px rgba(255 0 0 /50%); */
+  } 
+  
+
+  :root{    
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #141414;
+   --cor-botao-header:#FFF
+  }
+  
+  body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    line-height: 1;
+   
+  }
+ 
+  a{
+    color: var(--cor-de-link);
+  }
+  

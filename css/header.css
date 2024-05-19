@@ -1,0 +1,64 @@
+/* Estilização do cabeçalho */
+.cabecalho {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Estilização logomarca*/
+.cabecalho__logo {
+  display: flex;
+  align-items: center;
+  width: 136px;
+  height: 24px;
+}
+
+.cabecalho__logo img {
+  height: 100%;
+}
+
+.cabecalho__logo__titulo {
+  width: 103px;
+  height: 19px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  text-align: left;
+}
+
+/* Estilização links do cabeçalho */
+.cabecalho__menu__links {
+  display: flex;
+  flex-wrap: wrap; /*quebra em nova linha ao diminir a pag*/
+  gap: 30px;
+  align-items: center; /* Alinha verticalmente */
+  font-weight: bold;
+  justify-content: center;
+}
+
+.cabecalho__menu__links a {
+  font-size: 1.125rem;
+  line-height: 1.3;
+  padding: 10px 20px; /*para aumentar a area de clique*/
+}
+
+
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .cabecalho a {
+    background-color: var(--cor-botao-header);
+    border-radius: 4px;
+  }
+}
