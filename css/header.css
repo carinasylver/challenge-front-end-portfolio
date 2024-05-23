@@ -3,7 +3,7 @@
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  padding: 40px 20px;
+  padding: 40px;
   align-items: center;
   margin: 0 auto;
 }
@@ -35,7 +35,7 @@
   display: flex;
   flex-wrap: wrap; /*quebra em nova linha ao diminir a pag*/
   gap: 30px;
-  align-items: center; /* Alinha verticalmente */
+  align-items: center;
   font-weight: bold;
   justify-content: center;
 }
@@ -58,7 +58,7 @@
   }
 
   .cabecalho a {
-    background-color: var(--cor-botao-header);
+    background-color: var(--cor-botao-menu);
     border-radius: 4px;
   }
 }
