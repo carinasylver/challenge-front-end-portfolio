@@ -12,11 +12,14 @@
 
   :root{    
    --cor-de-fundo: #F5F5F5;
+   --cor-texto-principal: #464646;
    --cor-de-link: #141414;
-   --cor-botao-header:#FFF
+   --cor-botao-menu:#FFF;
+   --cor-destaque: #FF66C4;
   }
   
   body {
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
     font-family: 'Raleway';
