@@ -1,3 +1,6 @@
+/***************************************/
+/* 8. container sobremim
+/***************************************/
 .sobremim {
     max-width: 1200px;       
     margin: 0 auto;
@@ -9,11 +12,17 @@
     background-color: var(--clr-white);   
 
 }
-   
+
+/***************************************/
+/* 9. sobremim__ilustracao
+/***************************************/
 .sobremim__ilustracao img{
     width: 368px;
 }
 
+/***************************************/
+/* 10. sobremim__container__titulo
+/***************************************/
 
 .sobremim__container__titulo{
     text-align: center;
@@ -21,6 +30,9 @@
     
 }
 
+/***************************************/
+/* 11. sobremim__container__texto
+/***************************************/
 .sobremim__container__texto{
     color: var(--clr-main-text);
     font-size: 1.25rem;
