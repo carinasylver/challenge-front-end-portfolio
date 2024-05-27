@@ -1,6 +1,37 @@
 @import url(./global.css);
 @import url(./header.css);
 @import url(./apresentacao.css);
+@import url(./sobremim.css);
+
+
+/***************************************/
+/* @import url(./global.css);
+/***************************************/
+/* 0. reseta os padroes dos navegadores
+/* 1. variaveis
+/* 2. estilos gerais
+/*
+/***************************************/
+/* @import url(./header.css);
+/***************************************/
+/* 3. estilização do cabeçalho
+/* 4. estilização logomarca
+/* 5. estilização menu
+/*
+/***************************************/
+/* @import url(./apresentacao.css);
+/***************************************/
+/* 6. apresentação
+/* 7. estilização profile
+/*
+/***************************************/
+/* @import url(./sobremim.css);
+/***************************************/
+/* 6. apresentação
+/* 7. estilização profile
+/*
+/***************************************/
+
 
 
 

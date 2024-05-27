@@ -1,33 +1,47 @@
-/*reseta os padroes dos navegadores*/
+
+/*****************************************/
+/*  0. reseta os padroes dos navegadores
+/*****************************************/
 
  * {
     margin: 0; 
     padding: 0; 
     list-style: none; 
-    text-decoration: none; 
-  
+    text-decoration: none;   
     /* box-shadow: inset 0 0 0 1px rgba(255 0 0 /50%); */
   } 
   
-
+/**********************************/
+/*  1. Variaveis
+/**********************************/
+ 
   :root{    
-   --cor-de-fundo: #F5F5F5;
-   --cor-texto-principal: #464646;
-   --cor-de-link: #141414;
-   --cor-botao-menu:#FFF;
-   --cor-destaque: #FF66C4;
+   --clr-light-gray: #F5F5F5;
+   --clr-white: #FFFF;
+   --clr-main-text: #464646;
+   --clr-link: #141414;
+   --clr-btn-menu:#FFF;
+   --clr-light-pink: #FF66C4;
   }
-  
+
+/**********************************/
+/*  1. estilos gerais
+/**********************************/
+
   body {
-    /* height: 100vh; */
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--clr-light-gray);
     font-family: 'Raleway';
     line-height: 1;
    
   }
  
   a{
-    color: var(--cor-de-link);
+    color: var(--clr-link);
+  }
+
+  p{
+    line-height: 1.5;
+    padding: 0 10px;
   }
   

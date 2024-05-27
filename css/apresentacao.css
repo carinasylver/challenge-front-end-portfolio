@@ -1,13 +1,21 @@
+/***************************************/
+/* 6. apresentação
+/***************************************/
+
 .apresentacao {
   max-width: 1200px;
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 0 40px;
+  padding: 40px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse; 
   justify-content: space-between;
   align-items: center;
 }
 
+
+/***************************************/
+/* 7. estilização profile
+/***************************************/
 .apresentacao__profile {
   width: 368px;
 }
@@ -16,29 +24,33 @@
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  justify-content: center;
-  text-align: left;
+  justify-content: center; 
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .apresentacao__titulo {
-  font-size: 3em;
+  font-size: 3rem;
   line-height: 1.3;
   margin: 0 0 10px;
 }
 
 .apresentacao__titulo span {
-  color: var(--cor-destaque);
+  color: var(--clr-light-pink);
 }
 
 .apresentacao__texto {
-  color: var(--cor-texto-principal);
+  color: var(--clr-main-text);
   font-family: "Raleway", sans-serif;
   font-size: 1.375em;
   font-weight: 400;
-  line-height: 1.5;
   margin: 0 auto;
 }
+
+
+/***************************************/
+/*         responsividade
+/***************************************/
 
 @media (max-width: 768px) {
   .apresentacao {
