@@ -1,0 +1,108 @@
+/***************************************/
+/* 12. skills
+/***************************************/
+
+/***************************************/
+/* 12.1 skills__titulo
+/***************************************/
+.skills__titulo{
+    padding: 80px;
+    text-align: center;
+}
+
+
+/***************************************/
+/* 12.2 skills__container
+/***************************************/
+.skills__container {
+    background: var(--clr-white);
+    max-width: 1200px;
+    padding: 60px 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+/***************************************/
+/* 12.3 skills__container__skills list
+/***************************************/
+  .skills__container__skills{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;  
+    
+  }
+
+.skills__container__skills i{
+    font-size: 60px; 
+}
+
+.skills__name{
+    padding-top: 10px; 
+}
+
+
+
+/***************************************/
+/* 13. hobbies
+/***************************************/
+
+/***************************************/
+/* 13.1 hobbies__titulo
+/***************************************/
+.hobbies__titulo{
+    padding: 80px;
+    text-align: center;
+}
+
+/***************************************/
+/* 13.2 hobbies__container
+/***************************************/
+.hobbies__container {
+  background: var(--clr-white);
+  max-width: 1200px;
+  padding: 60px 40px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+/***************************************/
+/* 13.3 hobbies__container__hobbies list
+/***************************************/
+.hobbies__container__hobbies{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;  
+    
+  }
+
+.hobbies__container__hobbies i{
+    font-size: 60px; 
+}
+
+.hobbies__name{
+    padding-top: 10px; 
+}
+
+
+
+/***************************************/
+/*         responsividade
+/***************************************/
+/*Tablet*/
+@media (max-width: 768px) {
+    .skills__container__skills {
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 40px;
+    }
+  
+  }
+
+  @media (max-width: 768px) {
+    .hobbies__container__hobbies {
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 40px;
+    }
+  
+  }

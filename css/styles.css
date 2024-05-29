@@ -2,7 +2,7 @@
 @import url(./header.css);
 @import url(./apresentacao.css);
 @import url(./sobremim.css);
-@import url(./hobbies.css);
+@import url(./skills-hobbies.css);
 
 
 /***************************************/
@@ -32,13 +32,19 @@
 /* 9. sobremim__ilustracao
 /* 10. sobremim__container__titulo
 /* 11. sobremim__container__texto
+/*
 /***************************************/
-/* @import url(./hobbies.css);
+/* @import url(./skills-hobbies.css);
 /***************************************/
-/* 12. container sobremim
-/* 13. sobremim__ilustracao
-/* 10. sobremim__container__titulo
-/* 11. sobremim__container__texto
+/* 12. skills
+/* 12.1 skills__titulo
+/* 12.2 skills__container
+/* 12.3 skills__container__skills list 
+/* 13. hobbies
+/* 13.1 hobbies__titulo
+/* 13.2 hobbies__container
+/* 13.3 hobbies__container__hobbies list
+
 /***************************************/
 
 
