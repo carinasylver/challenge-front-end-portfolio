@@ -26,9 +26,11 @@
 /* 12.3 skills__container__skills list
 /***************************************/
   .skills__container__skills{
-    display: flex;
-    justify-content:space-around;
-    text-align: center;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;  
+    row-gap: 50px;
     
   }
 
@@ -91,18 +93,19 @@
 /*Tablet*/
 @media (max-width: 768px) {
     .skills__container__skills {
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       gap: 40px;
-      padding: 40px;
     }
   
   }
 
+  
   @media (max-width: 768px) {
     .hobbies__container__hobbies {
-      flex-wrap: wrap;
+      flex-direction: column;
       gap: 40px;
-      padding: 40px;
+  
     }
   
   }
