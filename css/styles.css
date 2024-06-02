@@ -3,6 +3,7 @@
 @import url(./apresentacao.css);
 @import url(./sobremim.css);
 @import url(./skills-hobbies.css);
+@import url(./formacao.css);
 
 
 /***************************************/
@@ -45,6 +46,14 @@
 /* 13.2 hobbies__container
 /* 13.3 hobbies__container__hobbies list
 
+/***************************************/
+/* @import url(./formacao.css);
+/***************************************/
+/* 14. formacao
+/* 14.1 formacao__titulo
+/* 14.2 formacao__container
+/* 14.3 skills__container__skills list 
+/* 
 /***************************************/
 
 

@@ -1,0 +1,62 @@
+/***************************************/
+/* 14. formacao
+/***************************************/
+
+/***************************************/
+/* 14.1 formacao__titulo
+/***************************************/
+.formacao__titulo{
+    padding: 80px;
+    text-align: center;
+}
+
+
+/***************************************/
+/* 14.2 formacao__container
+/***************************************/
+.formacao__container {
+    background: var(--clr-white);
+    max-width: 1200px;
+    padding: 60px 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+
+  /***************************************/
+/* 14.3 skills__container__skills list
+/***************************************/
+.formacao__container__cursos{
+    text-align: center;
+    
+  }
+
+  .formacao__container__cursos__item{
+    padding-bottom: 10px;
+  }
+
+.formacao__container__cursos__item img{
+  max-width: 368px;
+}
+
+
+/***************************************/
+/*         responsividade
+/***************************************/
+/*Tablet*/
+@media (max-width: 768px) {
+  .formacao__container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .formacao__container__cursos{
+    max-width: 300px;
+    
+  }
+
+}
