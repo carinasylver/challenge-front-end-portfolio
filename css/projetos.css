@@ -1,0 +1,133 @@
+/***************************************/
+/* 15. section projetos
+/***************************************/
+
+/***************************************/
+/* 15.1 projetos__titulo
+/***************************************/
+.projetos__titulo {
+  padding: 80px;
+  text-align: center;
+}
+
+/***************************************/
+/* 15.2 projetos__container
+/***************************************/
+.projetos__container {
+  background: var(--clr-white);
+  padding: 60px 40px;
+  margin: 10px auto;
+  border-radius: 5px;
+  display: flex;
+  max-width: 1200px;
+  gap: 1rem; 
+
+}
+
+/***************************************/
+/* 15.3 projetos__container__img
+/***************************************/
+
+.projetos__container__img {
+  height: 350px;
+  display: flex; 
+  width: 50%;
+}
+
+.projetos__container__img  img{
+  height:100%;
+  width: 100%;
+}
+
+/***************************************/
+/* 15.4 projetos__container__info
+/***************************************/
+
+.projetos__container__info {
+  display: flex;
+  width: 50%;  
+  flex-direction: column;         
+}
+
+.projetos__container__titulo {
+  padding: 20px;
+  text-align: center;
+}
+
+.projetos__container__texto {
+  color: var(--clr-main-text);
+  font-size: 1.25rem; 
+  font-weight: 400;
+  padding: 0; 
+  
+}
+
+
+/***************************************/
+/* 15.5 projetos__skills
+/***************************************/
+
+.container__tecnologias{
+  padding-top: 10px; 
+}
+
+.projetos__skills{
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;
+}
+
+.projetos__skills i{
+  font-size: 40px; 
+  text-align: center;
+  width: 100%;
+  flex-wrap: wrap;  
+}
+
+.projetos__skills ul{
+  align-items: center;
+}
+
+
+.projetos__container__links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.projetos__container__experiencia__botao {
+  background-color: var(--clr-light-pink);
+  color: var(--clr-white);
+  padding: 18px 20px;
+  border-radius: 5px;
+  border-color: transparent;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/***************************************/
+/*         responsividade
+/***************************************/
+/*Tablet*/
+@media (max-width: 768px) {
+
+  .projetos__container{
+    flex-direction: column; 
+    align-items: center;   
+    margin: 0;
+  }
+
+  .projetos__container__img{
+    width: 100%;
+  } 
+
+  .projetos__container__info{
+    width: auto;
+  }
+
+}
