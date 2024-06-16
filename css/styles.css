@@ -6,6 +6,7 @@
 @import url(./formacao.css);
 @import url(./projetos.css);
 @import url(./contato.css);
+@import url(./footer.css);
 
 
 
@@ -77,6 +78,11 @@
 /* 16.4 container formulario
 /* 16.5 subtext formulario
 /* 16.6 formulario de contato
+/* 
+/***************************************/
+/* @import url(./footer.css);
+/***************************************/
+/* 17. footer__rodape
 /* 
 /***************************************/
 
