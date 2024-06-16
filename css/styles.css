@@ -5,6 +5,7 @@
 @import url(./skills-hobbies.css);
 @import url(./formacao.css);
 @import url(./projetos.css);
+@import url(./contato.css);
 
 
 
@@ -65,6 +66,18 @@
 /* 15.3 projetos__container__img
 /* 15.4 projetos__container__info
 /* 15.5 projetos__skills
+/* 
+/***************************************/
+/* @import url(./contato.css);
+/***************************************/
+/* 16. contato
+/* 16.1 formularioContato__titulo
+/* 16.2 container__formularioContato
+/* 16.3 formulario imagem
+/* 16.4 container formulario
+/* 16.5 subtext formulario
+/* 16.6 formulario de contato
+/* 
 /***************************************/
 
 
