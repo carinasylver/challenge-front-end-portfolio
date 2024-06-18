@@ -21,7 +21,8 @@
     margin: 0 auto;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
+   
+    /* justify-content: space-between; */
     align-items: center;
     
   }
@@ -31,16 +32,31 @@
 /* 14.3 skills__container__skills list
 /***************************************/
 .formacao__container__cursos{
+    display: flex;   
     text-align: center;
+    margin: auto;
+ 
     
   }
 
+  .logo-j23 img{
+    width: 80px;
+    height: 52px; /* ou qualquer tamanho que você deseja */
+   /* height: 100px; */
+    /* display: block; */
+    
+  }
+  
+
   .formacao__container__cursos__item{
     padding-bottom: 10px;
+    /* display: flex;  
+    flex-wrap: wrap; */
+    
   }
 
 .formacao__container__cursos__item img{
-  max-width: 368px;
+  max-width: 200px;
 }
 
 

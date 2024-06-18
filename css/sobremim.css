@@ -2,59 +2,55 @@
 /* 8. container sobremim
 /***************************************/
 .sobremim {
-    max-width: 1200px;       
-    margin: 0 auto;
-    padding: 40px;
-    display: flex;
-    gap: 20px;    
-    align-items: center;  
-    border-radius: 5px;
-    box-shadow: inset 0 0 0 1px rgba(227, 223, 223, 0.5);
-    background-color: var(--clr-white);   
-
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px rgba(227, 223, 223, 0.5);
+  background-color: var(--clr-white);
 }
 
 /***************************************/
 /* 9. sobremim__ilustracao
 /***************************************/
-.sobremim__ilustracao img{
-    width: 368px;
+.sobremim__ilustracao img {
+  width: 368px;
 }
 
 /***************************************/
 /* 10. sobremim__container__titulo
 /***************************************/
 
-.sobremim__container__titulo{
-    text-align: center;
-    padding-bottom: 20px;
-    
+.sobremim__container__titulo {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 /***************************************/
 /* 11. sobremim__container__texto
 /***************************************/
-.sobremim__container__texto{
-    color: var(--clr-main-text);
-    font-size: 1.25rem;
-    padding: 10px;
-    font-weight: 400;
-    line-height: 1.5;  
+.sobremim__container__texto {
+  color: var(--clr-main-text);
+  font-size: 1.25rem;
+  padding: 10px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 /***************************************/
 /*         responsividade
 /***************************************/
-/*Tablet*/
 @media (max-width: 768px) {
-    .sobremim {
-      flex-direction: column;
-      gap: 40px;
-      padding: 40px;
-    }
-  
+  .sobremim {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
   }
 
-  
-
-  
+  .sobremim__ilustracao img {
+    max-width: 300px;
+  }
+}

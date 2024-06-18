@@ -5,7 +5,7 @@
 .cabecalho {
   max-width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;/*espaco entre logo e a nav*/
   padding: 40px;
   align-items: center;
   margin: 0 auto;
@@ -40,7 +40,7 @@
 /****************************/
 .cabecalho__menu__links {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;/*quebra o menu p linha de baixo*/ 
   gap: 30px;
   align-items: center;
   font-weight: bold;
@@ -58,7 +58,6 @@
 /***************************************/
 /*         responsividade
 /***************************************/
-/*Tablet*/
 @media (max-width: 768px) {
   .cabecalho {
     flex-direction: column;
@@ -71,3 +70,4 @@
     border-radius: 4px;
   }
 }
+

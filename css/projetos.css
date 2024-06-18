@@ -20,8 +20,7 @@
   border-radius: 5px;
   display: flex;
   max-width: 1200px;
-  gap: 1rem; 
-
+  gap: 1rem;
 }
 
 /***************************************/
@@ -30,12 +29,12 @@
 
 .projetos__container__img {
   height: 350px;
-  display: flex; 
+  display: flex;
   width: 50%;
 }
 
-.projetos__container__img  img{
-  height:100%;
+.projetos__container__img img {
+  height: 100%;
   width: 100%;
 }
 
@@ -45,8 +44,8 @@
 
 .projetos__container__info {
   display: flex;
-  width: 50%;  
-  flex-direction: column;         
+  width: 50%;
+  flex-direction: column;
 }
 
 .projetos__container__titulo {
@@ -56,41 +55,38 @@
 
 .projetos__container__texto {
   color: var(--clr-main-text);
-  font-size: 1.25rem; 
+  font-size: 1.25rem;
   font-weight: 400;
-  padding: 0; 
-  
+  padding: 0;
 }
-
 
 /***************************************/
 /* 15.5 projetos__skills
 /***************************************/
 
-.container__tecnologias{
-  padding-top: 10px; 
+.container__tecnologias {
+  padding-top: 10px;
 }
 
-.projetos__skills{
+.projetos__skills {
   display: flex;
   gap: 20px;
   padding: 20px;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   flex-wrap: wrap;
 }
 
-.projetos__skills i{
-  font-size: 40px; 
+.projetos__skills i {
+  font-size: 40px;
   text-align: center;
   width: 100%;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 }
 
-.projetos__skills ul{
+.projetos__skills ul {
   align-items: center;
 }
-
 
 .projetos__container__links {
   display: flex;
@@ -113,21 +109,35 @@
 /***************************************/
 /*         responsividade
 /***************************************/
-/*Tablet*/
-@media (max-width: 768px) {
 
-  .projetos__container{
-    flex-direction: column; 
-    align-items: center;   
-    margin: 0;
+@media (max-width: 943px) {
+  .projetos__container {
+    flex-direction: column;
   }
 
-  .projetos__container__img{
+  .projetos__container__img {
     width: 100%;
-  } 
+  }
 
-  .projetos__container__info{
+  .projetos__container__info {
     width: auto;
   }
 
+  .projetos__container__texto {
+    padding-left: 40px;
+  }
+
+  .container__tecnologias h3 {
+    padding-left: 40px;
+  }
+
+  .projetos__skills i {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 495px) {
+  .projetos__container__img {
+    width: 100%;
+  }
 }

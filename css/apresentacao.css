@@ -23,7 +23,6 @@
 .apresentacao__container {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
   justify-content: center; 
   margin: 0 auto;
   padding: 0 10px;
@@ -59,9 +58,9 @@
   }
 
   .apresentacao__profile {
-    max-width: 400px;
-    height: auto;
+    max-width: 350px;      
   }
+    
 
   .apresentacao__container {
     align-items: center;
@@ -71,4 +70,16 @@
     font-size: 2em;
     line-height: 1.3;
   }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+  .apresentacao img{
+    width: 100%;
+  }
+
+  .apresentacao__titulo {
+    text-align: center;
+  }
+
 }
