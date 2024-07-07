@@ -61,13 +61,26 @@
   gap: 20px;
 }
 
-.formcontato__form input {
-  padding: 20px 25px;
+ .formulario__campo {
+  display:flex;
+  flex-direction: column;
   width: auto;
+  border: 0px;
 }
 
+.formcontato__input{
+  padding: 20px;
+  height: 30px;
+ 
+} 
+.mensagem-erro {
+  color: red;
+  padding-top: 10px;
+}
+
+
 .formcontato__textarea {
-  padding: 20px 25px;
+  padding: 20px;
 }
 
 .formcontato__botao {

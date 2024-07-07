@@ -27,6 +27,9 @@
     <!--icones da pág no navegador -->
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
 
+    <!-- formulario contato -->
+    <script src="./js/script.js" type="module" defer></script>
+
     <title>Portfólio - CarinaDev</title>
   </head>
   <body>
@@ -61,9 +64,8 @@
           Olá, meu nome é <span>Carina Silveira!</span>
         </h1>
         <p class="apresentacao__texto">
-          Sou estudande com interesse em desenvolvimento
-          Front-end e atualmente estou participando no projeto Oracle ONE na
-          Alura.
+          Sou estudande com interesse em desenvolvimento Front-end e atualmente
+          estou participando no projeto Oracle ONE na Alura.
         </p>
       </div>
     </section>
@@ -337,34 +339,59 @@
             Preencha o formulário abaixo e entrarei em contato o mais rápido
             possível.
           </h3>
-          <form class="formcontato__form">
-            <input
-              class="formcontato__input"
-              type="text"
-              id="nome"
-              placeholder="Nome"
-            />
-            <input
-              class="formcontato__input"
-              type="email"
-              id="email"
-              placeholder="Email"
-            />
-            <input
-              class="formcontato__input"
-              type="text"
-              id="assunto"
-              placeholder="Assunto"
-            />
-            <textarea
-              class="formcontato__textarea"
-              rows="10"
-              cols="40"
-              id="mensagem"
-              name="mensagem"
-              placeholder="Sua mensagem"
-            ></textarea>
-            <button class="formcontato__botao">Enviar mensagem</button>
+          <form class="formcontato__form" data-formulario>
+            <fieldset class="formulario__campo">
+              <input class="formcontato__input"
+                name="nome"
+                id="nome"
+                type="name"
+                placeholder="Nome"
+                minlength="3"
+                required
+              />
+              <span class="mensagem-erro"></span>
+            </fieldset>     
+            <fieldset class="formulario__campo">
+              <input class="formcontato__input"
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Email"
+                minlength="4"
+                required
+                
+              />
+              <span class="mensagem-erro"></span>
+            </fieldset> 
+            <fieldset class="formulario__campo">
+              <input Class="formcontato__input"
+                name="assunto"
+                id="assunto"
+                type="text"
+                placeholder="Assunto"
+                required
+              />
+              <span class="mensagem-erro"></span>
+            </fieldset>
+            <fieldset class="formulario__campo">
+              <textarea class="formcontato__textarea"
+                rows="10"
+                cols="40"
+                id="mensagem"
+                name="mensagem"
+                placeholder="Sua mensagem"
+                required
+              ></textarea>
+              <span class="mensagem-erro"></span>
+            </fieldset>
+            <button class="formcontato__botao"
+              id="enviar"
+              data-botao-enviar
+              type="submit"
+            >
+              Enviar mensagem
+            </button>
+            <span class="mensagem-erro"></span>
           </form>
         </div>
       </div>
